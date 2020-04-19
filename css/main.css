@@ -1,0 +1,73 @@
+
+.panel {
+  font-family: 'Source Sans Pro';
+  font-size: 1.1em;
+  position: absolute;
+  z-index: 10;
+  width: 320px;
+  height: 65px;
+  background: #eee;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -100px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.panel2 {
+  font-family: 'Source Sans Pro';
+  font-size: 1em;
+  position: absolute;
+  z-index: 10;
+  width: 1000px ;
+  height: 140px;
+  background: #eee;
+  top: 114%;
+  left: 50%;
+  margin: 35px 0 0 -500px;
+
+  border-radius: 2px;
+  box-sizing: border-box;
+  z-index: 10;
+
+}
+
+
+
+.title {
+  text-align: center;
+}
+
+
+button:focus {outline:0;}
+input:focus{outline:0;}
+.searchButton{
+
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  button-focus: outline:0;
+  border-radius: 3px;
+  padding-top: 3px;
+  border: 4px solid #650000 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+
+}
+
+
+
+::selection {
+  background: rgba(125, 0, 0, 0.5); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(125, 0, 0, 0.5); /* Gecko Browsers */
+}
+
+input[type=text] {
+  border: 4px solid #650000 !important;
+}
+
+/* ---- reset ---- */ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #650000; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */  .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; }  .js-count-particles{ font-size: 1.1em; }  #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; }  #stats{ border-radius: 3px 3px 0 0; overflow: hidden; }  .count-particles{ border-radius: 0 0 3px 3px; }
